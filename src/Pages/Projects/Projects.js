@@ -19,7 +19,6 @@ const Projects = () => {
                             <Card.ImgOverlay>
                                 <Card.Title className="fw-bold">Watches Store</Card.Title>
                                 <Card.Text>
-
                                     <ul>
                                         <ol>Use firebase Authentication system</ol>
                                         <ol>I make here Admin system</ol>
@@ -46,7 +45,7 @@ const Projects = () => {
                                 </ul>
                             </Card.Text>
                             <Card.Text>
-                                <Button variant="outline-dark">Details</Button>
+                                <Button id="btn-hover" variant="outline-dark">Details</Button>
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card></Col>
@@ -64,7 +63,7 @@ const Projects = () => {
                                     </ul>
                                 </Card.Text>
                                 <Card.Text>
-                                    <Button variant="outline-dark">Details</Button>
+                                    <Button id="btn-hover" variant="outline-dark">Details</Button>
                                 </Card.Text>
                             </Card.ImgOverlay>
                         </Card></Col>
@@ -82,7 +81,7 @@ const Projects = () => {
                                 </ul>
                             </Card.Text>
                             <Card.Text>
-                                <Button variant="outline-dark">Details</Button>
+                                <Button id="btn-hover" variant="outline-dark">Details</Button>
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
@@ -95,7 +94,7 @@ const Projects = () => {
 
                             </Card.Text>
                             <Card.Text>
-                                <Button variant="outline-dark">Details</Button>
+                                <Button id="btn-hover" variant="outline-dark">Details</Button>
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
