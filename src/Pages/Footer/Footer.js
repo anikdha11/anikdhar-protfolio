@@ -26,11 +26,15 @@ const Footer = () => {
                         </div>
                     </Col>
 
-                    <Col className="d-flex justify-content-around">
+                    <Col>
+                        <div  className="d-flex justify-content-around mb-5">
                         <a href="https://www.facebook.com/profile.php?id=100004299047919"><i className="fab fa-facebook-f"></i></a>
                         <a href="https://www.linkedin.com/in/anik-dhar-b353b31a5"><i className="fab fa-linkedin-in"></i></a>
                         <a href="#twitter"><i className="fab fa-twitter"></i></a>
                         <a href="#instragram"><i className="fab fa-instagram"></i></a>
+                        </div>
+                        
+                        <h4 className="mt-3 fw-bold">&#169; 2021, Made by Anik Dhar</h4>
                     </Col>
                 </Row>
             </Container>
