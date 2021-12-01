@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
-
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import img from "../../img/profile-pic (2).png"
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';

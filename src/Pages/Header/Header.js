@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 const Header = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="bottom">
                 <Container>
                     <Navbar.Brand as={HashLink} className="fw-bold" to="/home">Anik Dhar</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

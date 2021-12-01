@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <Container className="mt-5">
                 <Row>
-                    <Col>
+                    <Col md={6} sm={8}>
                         <div className="text-start fw-bold">
                             <p>
                                 <i className="fas fa-location-arrow me-2"></i>
@@ -25,8 +25,8 @@ const Footer = () => {
                             </p>
                         </div>
                     </Col>
-
-                    <Col>
+ 
+                    <Col md={6} sm={8}>
                         <div  className="d-flex justify-content-around mb-5">
                         <a href="https://www.facebook.com/profile.php?id=100004299047919"><i className="fab fa-facebook-f"></i></a>
                         <a href="https://www.linkedin.com/in/anik-dhar-b353b31a5"><i className="fab fa-linkedin-in"></i></a>

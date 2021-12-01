@@ -1,10 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-// import watchstore from "../../img/Watches Store.jpg"
-// import healthcare from "../../img/Healthcare.jpg"
-// import tourtravles from "../../img/tour travles.jpg"
-// import teachinghome from "../../img/teachinghome.jpg"
-// import developercommittee from "../../img/Developercommittee.jpg"
 import "./Projects.css"
 import SingleProject from '../SingleProject/SingleProject';
 
@@ -50,7 +45,7 @@ const Projects = () => {
                 <Row className="mx-auto justify-content-md-center">
                     {
                         projects.map(project=>
-                        <Col md={4} sx={12}>
+                        <Col md={4} sm={12}>
                         <SingleProject
                         key={project.id}
                         project={project}></SingleProject></Col>)
