@@ -15,7 +15,7 @@ const SingleProject = ({ project }) => {
           {description}
             </Card.Text>
             <Link to={url}>
-            <Button variant="outline-dark">Details</Button>
+            <Button className="shadow border-1 bg-light text-dark fw-bold link">Details</Button>
             </Link>
             </Card.Body>
             </Card>

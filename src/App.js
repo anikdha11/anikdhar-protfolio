@@ -13,23 +13,24 @@ import Blog from './Pages/Blog/Blog';
 import About from './Pages/About/About';
 
 function App() {
+
   return (
     <div className="App area">
-    
+
       <Router>
         <Header></Header>
         <Switch>
           <Route exact path="/">
-          <Home></Home>
+            <Home></Home>
           </Route>
           <Route path="/home">
-          <Home></Home>
+            <Home></Home>
           </Route>
           <Route path="/blog">
-         <Blog></Blog>
+            <Blog></Blog>
           </Route>
           <Route exact path="/projects/:detailsId">
-          <ProjectDetails></ProjectDetails>
+            <ProjectDetails></ProjectDetails>
           </Route>
           <Route path="/about">
             <About></About>
