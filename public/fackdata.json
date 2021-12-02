@@ -1,0 +1,49 @@
+[
+    {
+        "id": "1",
+        "name": "Watches Store",
+        "description": " This is full stack projects with mongodb database.... ",
+        "img":"https://i.ibb.co/xfMcbYm/Watches-Store.jpg",
+        "live":"https://watches-store-6db58.web.app/",
+        "client":"https://github.com/anikdha11/watch-store",
+        "server":"https://github.com/anikdha11/watche-store-server",
+        "technologies":"React js, React router dom, Node js , javascript,Mongodb, Express js, Material ui."
+    },
+    {
+        "id": "2",
+        "name": "Online HealthCare",
+        "description": " This is react projects with Private route system.... ",
+        "img":"https://i.ibb.co/6Wv4gSj/Healthcare.jpg",
+        "live":"https://health-care-f37f7.web.app/",
+        "technologies":"Resct js,React router dom,javascript,Firebase authentication system,Private route system"
+    },
+     {
+        "id": "3",
+        "name": "Tour Travels",
+        "description": " This is full stack projects with mongodb database.... ",
+        "img":"https://i.ibb.co/FqP0CZx/tour-travles.jpg",
+        "live":"https://tour-travel-adc7f.web.app/",
+        "client":"https://github.com/anikdha11/tour-travel",
+        "server":"https://github.com/anikdha11/tour-travel-server-code",
+        "technologies":"React js, React router dom, Node js , javascript,Mongodb, Express js, React hook form, React Bootstrap."
+    }, 
+    {
+        "id": "4",
+        "name": "Online Teaching Home",
+        "description": " This is landing page with react router dom.... ",
+        "img":"https://i.ibb.co/w7m88j1/teachinghome.jpg",
+        "live":"https://online-teach-ak.netlify.app/",
+        "client":"https://github.com/anikdha11/online-teaching",
+        "technologies":"React js, React router dom, React Bootstrap."
+       
+    }, 
+    {
+        "id": "5",
+        "name": "Developer Committee",
+        "description": " This is Javascript projects with own API.... ",
+        "img":"https://i.ibb.co/BfCKFdM/Developercommittee.jpg",
+        "live":"https://webdeveloper-committee-ak.netlify.app/",
+        "client":"https://github.com/anikdha11/developer-commitee",
+        "technologies":"Javascript,Rest Api,Css,Html5"
+    }
+]
