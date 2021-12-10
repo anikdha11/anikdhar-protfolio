@@ -38,6 +38,7 @@ const projects = [
 
 
 const Projects = () => {
+    
     return (
         <div id="projects" className="mb-5">
             <h1 className="border-bottom border-warning border-4 w-25 mx-auto pb-2">Recents Projects</h1>
