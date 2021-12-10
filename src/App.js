@@ -11,13 +11,22 @@ import Header from './Pages/Header/Header';
 import Footer from './Pages/Footer/Footer';
 import Blog from './Pages/Blog/Blog';
 import About from './Pages/About/About';
+import { SpinnerRoundFilled } from 'spinners-react';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const[isLoading,setIsLoading] = useState(true);
 
+  useEffect(()=>{
+    setTimeout(()=>{
+ setIsLoading(false);
+    },2000)
+  },[])
   return (
     <div className="App area">
-
-      <Router>
+      {
+        isLoading===true?<SpinnerRoundFilled size={150} thickness={48} speed={71} color="rgba(137, 57, 172, 1)" className="mt-5" />:
+        <Router>
         <Header></Header>
         <Switch>
           <Route exact path="/">
@@ -38,6 +47,10 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
+     
+      }
+
+      
     </div>
   );
 }
