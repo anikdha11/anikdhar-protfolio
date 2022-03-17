@@ -1,8 +1,15 @@
 .link {
-    border-bottom:transparent;
-
+    border: 2px solid rgb(6, 229, 245);
+  
+}
+.link i{
+    font-size: 1.5rem;
 }
 .link:hover{
-   border-bottom: 4px solid black ;
-
+    border: 2px solid rgb(6, 209, 245);
+    border-radius: 10px;
+}
+.link:hover i{
+    color: rgb(0, 225, 255);
+   
 }

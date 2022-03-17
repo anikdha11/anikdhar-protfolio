@@ -46,7 +46,7 @@ const Projects = () => {
                 <Row className="mx-auto justify-content-md-center">
                     {
                         projects.map(project=>
-                        <Col md={4} sm={12}>
+                        <Col className='mx-auto' md={4} sm={12}>
                         <SingleProject
                         key={project.id}
                         project={project}></SingleProject></Col>)

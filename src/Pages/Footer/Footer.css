@@ -1,0 +1,25 @@
+.foot-link a{
+    background-color:transparent;
+    border: 2px solid rgb(111, 108, 114);
+    border-radius: 5px;
+
+}
+i{
+    font-size: 1.5rem;
+}
+.foot-link a:hover{
+    border: 2px solid rgb(157, 159, 163);
+}
+
+ a:hover .fb{
+    color: cornflowerblue;
+   
+}
+ a:hover .linkedin{
+    color: rgb(12, 185, 238);
+   
+}
+ a:hover .twitter{
+    color: rgb(12, 185, 238);
+   
+}

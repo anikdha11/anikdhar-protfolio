@@ -45,9 +45,9 @@ const About = () => {
                             Firebase,
                             Github</p>
                         <div className="d-flex justify-content-evenly mb-3">
-                        <a className=" p-3 shadow border-dark link" href="https://github.com/anikdha11"><i class="fab fa-github"></i></a>
-                        <a className=" p-3 shadow border-dark link" href="https://www.facebook.com/profile.php?id=100004299047919"><i className="fab fa-facebook-f"></i></a>
-                        <a className=" p-3 shadow border-dark link" href="https://www.linkedin.com/in/anik-dhar-b353b31a5"><i className="fab fa-linkedin-in"></i></a>
+                        <a className=" p-3 shadow link" href="https://github.com/anikdha11"><i class="fab fa-github"></i></a>
+                        <a className=" p-3 shadow link" href="https://www.facebook.com/profile.php?id=100004299047919"><i className="fab fa-facebook-f"></i></a>
+                        <a className=" p-3 shadow link" href="https://www.linkedin.com/in/anik-dhar-b353b31a5"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                         <Button className="shadow border-1 border-success bg-light text-danger fw-bold mt-5 link" onClick={backToHome}>Back To Home</Button>
                     </Col>

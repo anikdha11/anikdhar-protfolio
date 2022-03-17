@@ -11,23 +11,23 @@ import Header from './Pages/Header/Header';
 import Footer from './Pages/Footer/Footer';
 import Blog from './Pages/Blog/Blog';
 import About from './Pages/About/About';
-import { SpinnerRoundFilled } from 'spinners-react';
-import { useEffect, useState } from 'react';
+// import { SpinnerRoundFilled } from 'spinners-react';
+// import { useEffect, useState } from 'react';
 
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000)
-  }, [])
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 500)
+  // }, [])
   return (
     <div className="App area">
 
-      {
-        isLoading === true ? <SpinnerRoundFilled size={150} thickness={48} speed={71} color="rgba(137, 57, 172, 1)" className="mt-5" /> :
+      {/* {
+        isLoading === true ? <SpinnerRoundFilled size={150} thickness={48} speed={71} color="rgba(137, 57, 172, 1)" className="mt-5 mx-auto" /> : another-link} */}
           <Router>
             <Header></Header>,
 
@@ -52,7 +52,7 @@ function App() {
             <Footer></Footer>
           </Router>
 
-      }
+      
 
 
     </div>
