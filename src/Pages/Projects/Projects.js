@@ -46,7 +46,7 @@ const Projects = () => {
                 <Row className="p-3 mb-5 justify-content-md-center justify-content-center">
                     {
                         projects.map(project=>
-                        <Col className=''lg={4} md={4} sm={12} xs={12}>
+                        <Col className='g-2'lg={4} md={6} sm={12} xs={12}>
                         <SingleProject
                         key={project.id}
                         project={project}></SingleProject></Col>)
