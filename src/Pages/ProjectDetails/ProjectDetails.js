@@ -74,7 +74,7 @@ const ProjectDetails = () => {
                         <h2 className="fw-bold mt-3">Technologies:</h2>
                         <h5>{projects.technologies}</h5>
                         <div className='basicBox'>
-                            <Button className="bg-white border-0 btn-effect">Back-Home</Button>
+                            <Button className="border-0 btn-effect">Back-Home</Button>
                             <svg onClick={backToHome} width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
                                 <rect x='0' y='0' fill='none' width='130' height='65' />
                             </svg>

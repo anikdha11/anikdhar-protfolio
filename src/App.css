@@ -3,6 +3,19 @@
 }
 body {
   font-family: 'Karla', sans-serif;
+  background-color: #dad8d6cb;
+}
+
+body{
+  animation-name: example;
+  animation-duration: 15s;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(231, 171, 171);}
+  25%  {background-color: rgb(240, 216, 164);}
+  50%  {background-color: rgb(187, 241, 219);}
+  100% {background-color: rgb(157, 203, 224);}
 }
 
 .App-logo {

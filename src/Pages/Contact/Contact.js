@@ -22,8 +22,8 @@ const Contact = () => {
     };
     return (
         <div id="contact">
-            <h1 style={{ width: '140px' }} className="border-bottom border-warning border-4 mx-auto pb-2">Contact</h1>
-            <form className="d-flex flex-column w-50 mx-auto page shadow img-effect" ref={form} onSubmit={sendEmail}>
+    <span className="p-2 text-center fw-bold btn-effect shadow text-success border border-secondary">Contact</span>
+            <form className="d-flex flex-column w-75 mx-auto page shadow img-effect" ref={form} onSubmit={sendEmail}>
                 <label className='field field_v1' htmlFor="">
                     <input className="mt-3 field__input" {...register("name", { maxLength: 20 })} name='firstName' placeholder="name" required />
                     <span className="field__label-wrap">

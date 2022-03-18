@@ -41,12 +41,12 @@ const Projects = () => {
     
     return (
         <div id="projects" className="mb-5">
-            <h1 className="border-bottom border-warning border-4 w-25 mx-auto pb-2">Recents Projects</h1>
+            <span className="p-2 text-center fw-bold btn-effect shadow text-success border border-secondary">Recents Projects</span>
             <Container className="mt-5 ">
-                <Row className="mx-auto justify-content-md-center">
+                <Row className="p-3 mb-5 justify-content-md-center justify-content-center">
                     {
                         projects.map(project=>
-                        <Col className='mx-auto' md={4} sm={12}>
+                        <Col className=''lg={4} md={4} sm={12} xs={12}>
                         <SingleProject
                         key={project.id}
                         project={project}></SingleProject></Col>)

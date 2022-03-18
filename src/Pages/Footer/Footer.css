@@ -23,3 +23,13 @@ i{
     color: rgb(12, 185, 238);
    
 }
+.contact-link {
+   border: 2px solid rgb(0, 183, 255);
+   color: azure;
+}
+.contact-link:hover{
+    background-color: rgb(129, 224, 208);
+    border-radius: 5px;
+    border: 2px solid black;
+
+}

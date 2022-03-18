@@ -48,14 +48,13 @@ a:hover{
 .btn-effect{
 border-radius: 18px;
 border: 1px solid transparent;
-background-color: white;
-color: rgba(9, 248, 148, 0.925);
+background-color: transparent;
+color: rgba(247, 3, 166, 0.945);
 font-size: 1.2rem;
 font-weight: 500;
 }
 /* .btn-effect:hover{
-   color: tomato;
-    border: 1px solid transparent;
+   color: rgb(0, 248, 62);
 
 } */
 
@@ -85,9 +84,7 @@ svg rect, svg path, svg polyline {
     stroke-width: 3;
   }
   .basicBox:hover svg rect{
-    stroke: #06fab1;
-   
-
+    stroke: rgba(247, 3, 166, 0.945);
   }
 
   svg rect {

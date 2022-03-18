@@ -13,7 +13,7 @@ const SingleProject = ({ project }) => {
         .red {color: red}||{fontWeight:"900"}
         .green {color: green}
       `}</style>
-            <Card  style={{ width: '18rem' }} className="mt-3 img-effect">
+            <Card  style={{ width: '18rem',backgroundColor:'transparent' }} className="img-effect">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title className={active}
