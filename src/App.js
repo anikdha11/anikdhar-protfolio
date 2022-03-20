@@ -12,7 +12,7 @@ import Footer from './Pages/Footer/Footer';
 import Blog from './Pages/Blog/Blog';
 import About from './Pages/About/About';
 import ScrollToTop from "react-scroll-to-top";
-import { SiAcclaim } from "react-icons/si"
+
 // import { SpinnerRoundFilled } from 'spinners-react';
 // import { useEffect, useState } from 'react';
 
@@ -33,7 +33,7 @@ function App() {
       {/* {
         isLoading === true ? <SpinnerRoundFilled size={150} thickness={48} speed={71} color="rgba(137, 57, 172, 1)" className="mt-5 mx-auto" /> : another-link} */}
           <Router>
-          <ScrollToTop style={{backgroundColor:"black"}} smooth component={<h5 style={{fontFamily:'sans-serif'}} className='fw-bold text-danger'>Up</h5>}/>
+          <ScrollToTop style={{backgroundColor:"transparent"}} smooth component={<h5 style={{fontFamily:'sans-serif'}} className='fw-bold text-danger'>Up</h5>}/>
             <Header></Header>
             <Switch>
               <Route exact path="/">
@@ -52,7 +52,6 @@ function App() {
                 <About></About>
               </Route>
             </Switch>
-          
             <Footer></Footer>
           </Router>
 
