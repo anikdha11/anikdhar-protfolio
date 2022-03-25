@@ -33,6 +33,17 @@ const projects = [
         "name": "Developer Committee",
         "description": " This is Javascript projects with own API.... ",
         "img":"https://i.ibb.co/BfCKFdM/Developercommittee.jpg"
+    },
+    {
+        
+            "id": "6",
+            "name": "Lady Ecommerce",
+            "description": " This is full stack projects with mongodb database. This is team projects with payment system ",
+            "img":"https://i.ibb.co/sWTJxyz/lady-ecommerce.png",
+            "live-link":"https://ladyecommerce-d15fd.web.app/",
+            "client-code":"https://github.com/anikdha11/Team-project",
+            "technologies":"React Js, Tailwind Css, Firebase Authentication system, Javascript, Rest Api,Css,Html5"
+        
     }
 ]
 

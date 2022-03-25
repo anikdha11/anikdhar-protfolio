@@ -14,12 +14,12 @@ const SingleProject = ({ project }) => {
         .green {color: green}
       `}</style>
             <Card  style={{ width: '18rem',backgroundColor:'transparent' }} className="img-effect mx-auto">
-                <Card.Img variant="top" src={img} />
+                <Card.Img style={{height:"14rem"}} variant="top" src={img} />
                 <Card.Body>
                     <Card.Title className={active}
                         onClick={() => setActive((active) => (active === "red" ? "green" : "red"))}>{name}</Card.Title>
                     <Card.Text>
-                        {description}
+                        {description.slice(0,50)}
                     </Card.Text>
                     {/* button css from header.css */}
                     <div className='basicBox'>

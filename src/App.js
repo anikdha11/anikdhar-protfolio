@@ -33,7 +33,7 @@ function App() {
       {/* {
         isLoading === true ? <SpinnerRoundFilled size={150} thickness={48} speed={71} color="rgba(137, 57, 172, 1)" className="mt-5 mx-auto" /> : another-link} */}
           <Router>
-          <ScrollToTop style={{backgroundColor:"transparent"}} smooth component={<h5 style={{fontFamily:'sans-serif'}} className='fw-bold text-danger'>Up</h5>}/>
+          <ScrollToTop id='scroll-hover' smooth component={<h5 style={{fontFamily:'sans-serif'}} className='fw-bold'>Up</h5>}/>
             <Header></Header>
             <Switch>
               <Route exact path="/">

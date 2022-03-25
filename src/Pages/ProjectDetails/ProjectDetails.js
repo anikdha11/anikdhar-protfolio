@@ -21,7 +21,7 @@ const ProjectDetails = () => {
             .then((res) => res.json())
             .then((data) => {
                 setProjects(data)
-                // console.log(data)
+                console.log(data)
                 // {
                 //     const findData = data.find((project) => project.id == parseInt(detailsId));
                 //     if (findData) {
@@ -35,7 +35,7 @@ const ProjectDetails = () => {
 
     return (
         <div>
-            <h1 className="fw-bold">Projects {detailsId}</h1>
+            <span style={{fontSize:'2.5rem'}} className="fw-bold p-2">Projects {detailsId}</span>
             {
                 isLoading && <Spinner animation="border" variant="danger" />
             }

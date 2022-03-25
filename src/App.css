@@ -52,3 +52,12 @@ body{
     transform: rotate(360deg);
   }
 }
+#scroll-hover{
+  background-color: transparent;
+  animation-name: example;
+  animation-duration: 15s;
+}
+h5{
+  color: rgb(250, 10, 10);
+ font-weight: 900;
+}
