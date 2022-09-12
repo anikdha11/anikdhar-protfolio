@@ -1,132 +1,135 @@
-#nav-link{
-    color: #080808;
-    font-size: 1.5rem;
-    font-weight: 500;
+#nav-link {
+  color: #080808;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
-#nav-link:hover{
-    font-weight: 900;
-   color: rgb(0, 0, 0);
-   font-size: 1.4rem;
-    box-shadow: 1px 1px 1.5px 1.5px rgb(211, 169, 169);
+#nav-link:hover {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 1.4rem;
+  box-shadow: 1px 1px 1.5px 1.5px rgb(211, 169, 169);
 }
-#nav-link:focus{
-    background-color: rgb(163, 159, 163);
-    border-radius: 5px;
+/* #nav-link:active {
+  background-color: rgb(246, 2, 2);
+  border-radius: 5px;
+} */
+.active {
+  background-color: "gold";
 }
-.icon{
-    background-color: aqua;
-    height: 40px;
-    border: 1px dotted rgb(180, 167, 167);
+.icon {
+  background-color: aqua;
+  height: 40px;
+  border: 1px dotted rgb(180, 167, 167);
 }
-.icon:hover{
-    background-color: rgb(248, 8, 80);
-    border: 1px dotted rgb(7, 7, 7);
-    box-shadow: 1px 1px 1.5px 1.5px rgb(211, 169, 169);
-    border-radius: 5px;
+.icon:hover {
+  background-color: rgb(248, 8, 80);
+  border: 1px dotted rgb(7, 7, 7);
+  box-shadow: 1px 1px 1.5px 1.5px rgb(211, 169, 169);
+  border-radius: 5px;
 }
 
-.img-effect{
-  transition: transform .6s; /* Animation */
+.img-effect {
+  transition: transform 0.6s; /* Animation */
 }
-.img-effect:hover{
+.img-effect:hover {
   /* -ms-transform: scale(1); IE 9 */
   /* -webkit-transform: scale(1); Safari 3-8 */
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
-
 
 /* Projects button effects */
 
-a{
+a {
   color: #06fab1;
 }
-a:hover{
+a:hover {
   color: red;
 }
 
-
-.btn-effect{
-border-radius: 18px;
-border: 1px solid transparent;
-background-color: transparent;
-color: rgba(247, 3, 166, 0.945);
-font-size: 1.2rem;
-font-weight: 500;
+.btn-effect {
+  border-radius: 18px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: rgba(247, 3, 166, 0.945);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 /* .btn-effect:hover{
    color: rgb(0, 248, 62);
 
 } */
 
-.basicBox{
-    width: 130px;
-    height: 65px;
-    margin: 15px auto;
-    color: #4274D3;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.15rem;
-    line-height: 65px;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-  }
+.basicBox {
+  width: 130px;
+  height: 65px;
+  margin: 15px auto;
+  color: #4274d3;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.15rem;
+  line-height: 65px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
 
 svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-svg rect, svg path, svg polyline {
-    fill: none;
-    stroke: #42c9d3;
-    stroke-width: 3;
-  }
-  .basicBox:hover svg rect{
-    stroke: rgba(247, 3, 166, 0.945);
-  }
+svg rect,
+svg path,
+svg polyline {
+  fill: none;
+  stroke: #42c9d3;
+  stroke-width: 3;
+}
+.basicBox:hover svg rect {
+  stroke: rgba(247, 3, 166, 0.945);
+}
 
-  svg rect {
-    stroke-dasharray: 400, 0;
-    -webkit-transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out;
-    -o-transition: all 0.8s ease-in-out;
-  }
+svg rect {
+  stroke-dasharray: 400, 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
 
-  .basicBox:hover svg rect {
-    stroke-width: 8;
-    stroke-dasharray: 35, 245;
-    stroke-dashoffset: 38;
-    -webkit-transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out;
-    -o-transition: all 0.8s ease-in-out;
-  }
+.basicBox:hover svg rect {
+  stroke-width: 8;
+  stroke-dasharray: 35, 245;
+  stroke-dashoffset: 38;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
 
 /* home page animation */
-.animated::before{
-  content: ' ';
+.animated::before {
+  content: " ";
   animation: animate infinite 8s;
   color: #f03131;
-  border-bottom: 5px  double rgb(6, 243, 231);
+  border-bottom: 5px double rgb(6, 243, 231);
   border-right: 40px dotted rgb(6, 247, 127);
   text-transform: uppercase;
   font-weight: 900;
   padding: 2px;
 }
 @keyframes animate {
-  20%{
-    content: 'a Fullstack Projects.';
+  20% {
+    content: "a Fullstack Projects.";
   }
-  40%{
-    content: 'a MERN Stack Projects.';
+  40% {
+    content: "a MERN Stack Projects.";
   }
-  60%{
-    content: 'a Landing Pages.';
+  60% {
+    content: "a Landing Pages.";
   }
-  100%{
-    content: 'an E-Commerce Projects etc. . . .';
+  100% {
+    content: "an E-Commerce Projects etc. . . .";
   }
 }

@@ -2,21 +2,20 @@
   text-align: center;
 }
 body {
-  font-family: 'Karla', sans-serif;
-  background-color: #dad8d6cb;
+  font-family: "Karla", sans-serif;
 }
 
-body{
+body {
   animation-name: example;
   animation-duration: 15s;
 }
-
+/* 
 @keyframes example {
   0%   {background-color: rgb(231, 171, 171);}
   25%  {background-color: rgb(240, 216, 164);}
   50%  {background-color: rgb(187, 241, 219);}
   100% {background-color: rgb(157, 203, 224);}
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -52,12 +51,12 @@ body{
     transform: rotate(360deg);
   }
 }
-#scroll-hover{
+#scroll-hover {
   background-color: transparent;
   animation-name: example;
   animation-duration: 15s;
 }
-h5{
+h5 {
   color: rgb(250, 10, 10);
- font-weight: 900;
+  font-weight: 900;
 }
